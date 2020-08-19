@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #050a1f;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container i {
+  font-size: 40px;
+}
+
+.container #twit {
+  border: 1px solid #55acee;
+  color: #55acee;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 30px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.container #face {
+  border: 1px solid #3b5999;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 30px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  color: #3b5999;
+}
+
+.container #yt {
+  border: 1px solid #cd201f;
+  color: #cd201f;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 30px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.container #git {
+  border: 1px solid #eee;
+  color: #eee;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 30px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+#twit:hover {
+  background: #55acee;
+  color: #eee;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 10px #55acee;
+          box-shadow: 0 0 0 10px #55acee;
+}
+
+#face:hover {
+  background: #3b5999;
+  color: #eee;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 10px #3b5999;
+          box-shadow: 0 0 0 10px #3b5999;
+}
+
+#yt:hover {
+  background: #cd201f;
+  color: #eee;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 10px #cd201f;
+          box-shadow: 0 0 0 10px #cd201f;
+}
+
+#git:hover {
+  background: #eee;
+  color: #000;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 10px #eee;
+          box-shadow: 0 0 0 10px #eee;
+}
